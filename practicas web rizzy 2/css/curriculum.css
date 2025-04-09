@@ -1,0 +1,22 @@
+/*mi document*/
+*{margin: 0px;
+    padding: 0px;}
+
+img{width: 20%;
+    height: auto;
+    padding: 8px 0px;}
+
+h1{text-align: center;
+    font-size: 20px; 
+    padding: 20px;
+    line-height: 100%;}
+
+p{text-align: center;
+   font-size: 16px;}
+
+.logo {color: red;
+        font-size: 2em;
+        display: block;
+        width: 60px;
+        padding: 8px 0px;
+        margin: auto;}

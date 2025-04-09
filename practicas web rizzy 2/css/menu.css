@@ -1,0 +1,76 @@
+/*DOCEMENT*/
+*{margin: 0px;
+padding: 0px;}
+
+     @font-face {
+        font-family: 'College';
+        src: url('../fronts/transfonter.org-20250326-203721/College.woff2') format('woff2'),
+            url('../fronts/transfonter.org-20250326-203721/College.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+}
+
+.cabecera {font-family: 'College';
+           background-color: beige;
+           min-height: 1px;
+           width: 100%;}
+
+.bar {min-height: 1px;}
+
+.logo {color: red;
+       font-size: 2em;
+       display: block;
+       width: 60px;
+       padding: 8px 0px;
+       margin: auto;}
+
+.container {display: flex;
+            flex-flow: row wrap;}
+
+.items {width: 50%;
+        text-decoration: none;
+        text-align: center;
+        color: red;
+        background: whitesmoke;
+        padding: 8px 0px;
+        }
+
+.container a:first-child{display: none;}
+
+/*BREAKPOINT 600PX*/
+
+@media only screen and (min-width:600px) {
+
+.logo{font-size: 4em;
+      }
+
+.items{ width: 25%;}
+
+}
+
+/*BREAKPOINT 992PX*/
+
+@media only screen and (min-width:992px) {
+
+.container a:first-child{display: block;
+                         border-top-left-radius: 16px;
+                         border-bottom-left-radius: 16px;}
+                        
+.container a:last-child{display: block;
+                        border-top-right-radius: 16px;
+                        border-bottom-right-radius: 16px;}
+
+.items{ width: 20%;}
+
+.container{width: 80%;
+           margin: auto;
+           position: relative;
+           top: 15px;
+           border-radius: 16px;
+           box-shadow: 0px 0px 2px black;}
+
+.container :hover{ background-color: rgb(0, 0, 0);}
+
+
+}

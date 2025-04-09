@@ -1,0 +1,44 @@
+/*documento css*/
+*{margin: 0;}
+
+.cabecera{background-color: rgb(5, 183, 32);
+          padding: 16px 0px;}
+
+.logo{font-size: 6em;
+       color: rgb(255, 255, 255);
+       text-align: center;
+      display: block;}
+
+.pie{background-color: rgb(33, 197, 0);
+     text-align: center;
+     padding: 16px 0px}
+
+h1{font-size: 32px;
+   color: crimson;}
+
+h2{padding: 8px 0px;
+   color: rgb(0, 0, 0);
+   padding-bottom: 16px;}
+
+h3{padding: 8px 0px;}
+
+.contenido p{font-size: 20px; 
+             padding: 20px;
+             line-height: 100%;}
+
+.respuestas img {width: 300px;
+                 height: 300px;
+                 margin: 0px auto 16px auto;}
+
+.flotador {width: 400px;
+           height: 300px;
+           margin-bottom: 16px;}
+
+.plenitud {float: left;
+           margin-right: 16px;}
+
+li{font-size: 20px; 
+     padding: 20px;}
+
+.cabecera { margin-bottom: 32px; }
+

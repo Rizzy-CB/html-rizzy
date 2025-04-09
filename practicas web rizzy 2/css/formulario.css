@@ -1,0 +1,71 @@
+/*documento css*/
+*{margin: 0px;
+  padding: 0;}
+
+body{background-color: rgba(178, 178, 179, 0.864);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+
+h1{ text-align: center; }
+
+h2{padding-bottom: 8px; }
+
+.cabecera{min-height: 80px;
+          border-bottom: 2px solid rgb(0, 0, 167);  }
+
+.cuerpo{ width: 100%; }
+
+.container{ width: 80; 
+            padding-top: 80px;
+            margin: 0px auto; 
+            display: flex; }
+
+.container p {font-size: 1.3em;
+              padding-bottom: 16px; }
+
+.items { width: 50%;
+         padding: 16px; 
+         box-sizing: border-box;}
+
+.items input, textarea { width: 100%; 
+               padding: 8px; 
+               margin-bottom: 8px;}
+
+textarea{ max-width: 100%; 
+          min-width: 100%;
+          min-height: 120px;
+          max-height: 120%;}
+
+.items a{ display: block; 
+          width: 120px;
+          padding: 16px;
+          border-radius: 8px; 
+          background-color: #25D366;
+          background: rgb(2,0,36);
+          background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,115,67,1) 0%, rgba(0,255,95,1) 100%);;
+          text-align: center;
+          color: whitesmoke; 
+          text-decoration: none;
+          }
+
+.items a:hover { background-color: blue;}
+.items a:active { background: rgb(10, 0, 205);
+                  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(156, 60, 36) 0%, rgb(255, 153, 0) 100%);}
+
+#btn { width: 120px; }
+
+.items input::placeholder,textarea::placeholder{color: blue;}
+
+.container::before, .container::after {content: "";
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    background:url(../img/apple.svg) ;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    position: relative;
+                    top: -15px;
+                    left: -15px;}
+
+.container::after {position: relative !important;
+                   bottom: 70px !important;
+                   right: 50px !important;}

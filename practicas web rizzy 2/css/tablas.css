@@ -1,0 +1,26 @@
+/*DOCUMENTO CSS*/
+
+* {font-size: 18px;
+   padding: 0px;}
+
+   body{ font-family: "Oswald", sans-serif;}
+
+   h1 {font-family: "Big Shoulders Stencil", sans-serif;
+    text-align: center;
+    font-size: 32px; } 
+     
+.cabecera { margin-bottom: 32px; }
+
+.tablas {margin-bottom: 32px;
+        min-height: 1px;
+        padding: 16px 0px ;
+        background-color: dodgerblue;}
+
+div.tablas table {background-color: aquamarine;
+                  margin-bottom: 300px;}
+
+.tablas table { margin: auto;}
+
+.pie {background-color: rgb(4, 145, 98);
+      text-align: center;}
+

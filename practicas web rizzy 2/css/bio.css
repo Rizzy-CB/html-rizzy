@@ -1,0 +1,22 @@
+/*DOCUMENT CSS*/
+*{margin: 0%;}
+
+
+body{background-color: rgb(0, 0, 0);}
+
+.cabecera {font-family: "Permanent Marker", cursive;
+           font-size: 32px;
+           background-color: red;
+           color: white;
+           width: auto;}
+
+.biografia{ font-family: "Big Shoulders", sans-serif;
+            color: white;}
+
+.tablas{margin:auto;
+    min-height: 15px;
+    padding: 16px auto ;
+    background-color: rgb(255, 0, 0);
+    text-align: center; }
+
+.tablas table{ margin: 32px auto;}
