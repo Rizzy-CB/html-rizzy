@@ -1,0 +1,11 @@
+/*DOCUMENT CSS*/
+*{margin: 0%;}
+
+
+body{background-color: rgb(243, 243, 0);}
+
+.header {font-family: "Permanent Marker", cursive;
+           font-size: 32px;
+           background-color: red;
+           color: white;
+           width: auto;}

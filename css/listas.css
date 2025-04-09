@@ -1,0 +1,35 @@
+/*document css*/
+*{margin: 0;}
+
+body{font-family: "Oswald", serif;}
+
+/*encabezados*/
+
+h1{background-color: rgb(145, 122, 81);
+   text-align: center;}
+
+h2{padding: 8px 0px; 
+   color: crimson;}
+
+
+.display{color: rgb(0, 128, 2);}
+   
+
+/*LAYOUT*/
+.cabecera{padding: 16px 0px 16px 0px;
+          background-color: rgb(206, 127, 235);}
+
+
+.listas{margin: 16px auto;
+        padding: 16px;
+        width: 70%;
+         background-color: rgb(239, 223, 0);}
+
+.contenido{width: 70%;
+           margin: 16px auto;}
+
+.contenido p {line-height: 140%;
+            padding: 16pz 0px;}
+
+.pie span { background-color: blueviolet;
+        text-align: center}

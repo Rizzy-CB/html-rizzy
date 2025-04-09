@@ -1,0 +1,23 @@
+/*documento css*/
+body{background-color: rgb(164, 164, 164);}
+
+h1{background-color: #f01414;}
+
+h1{color: rgb(254, 245, 0); 
+    font-size: 32px; 
+    line-height: 140%; 
+    text-decoration: underline; 
+    text-align: center;}
+
+h2, h3{color:rgb(205, 12, 1);}
+
+h4{color: blue;}
+
+h5, h6{color: brown;}
+
+p{color: rgb(0, 0, 0);}
+b{font-size: 32px;}
+
+
+
+
